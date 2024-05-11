@@ -49,13 +49,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Scale"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:layout_margin="5dp"/>
             <Button
                 android:id="@+id/rotate_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Rotate"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -67,13 +69,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Translate"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:layout_margin="5dp"/>
             <Button
                 android:id="@+id/alpha_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Alpha"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 />
         </LinearLayout>
     </LinearLayout>
